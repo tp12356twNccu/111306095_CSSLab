@@ -1,0 +1,66 @@
+@media all {
+
+    header {
+      text-align: center;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+  
+    h1 {
+      color: navy;
+      font-family: 'Times New Roman', serif;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  
+    .navbar {
+      list-style: none;
+      padding: 0;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+  
+    .navbar li {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    nav {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+        color: red;
+        border: 1px solid navy;
+        text-align: center;
+        background-color: whitesmoke;
+        width: 15em;
+        position: relative;
+    }
+
+    nav ul {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    nav ul li {
+        border: 1px solid navy;
+        background-color: aqua;
+    }
+
+  }
+  
+  @media print {
+    body {
+      color: black;
+      background-color: white;
+    }
+  }
